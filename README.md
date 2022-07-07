@@ -17,3 +17,5 @@ We have used TrustHub dataset for this project.
 If one wishes to work in this project on their local environment. You would need to clone the repository https://github.com/AICPS/hw2vec and then use it. There would be many
 errors due to environment mismatches. To use this code we had to patch the codes of pytorch and pytoch-gemometric. The files are in the repository. Add the linear.py file
 in the path /usr/local/lib/python3.7/dist-packages/torch-geometric/nn/Dense/linear.py and module.py file in the path /usr/local/lib/python3.7/dist-packages/torch/nn/Module/module.py.
+
+The file use_case_2_modified2.py should be used if one whished to train GNN first on AST and then the same model on DFG using the same weights.
